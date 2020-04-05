@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/keshavbaweja-git/hello/carpurchase"
 	"github.com/keshavbaweja-git/hello/geometry"
+	"github.com/keshavbaweja-git/hello/simplestringindicies"
 )
 
 func main() {
-	fmt.Println(carpurchase.NbMonths(2000, 8000, 1000, 1.5))
+	fmt.Println(simplestringindicies.Solution("(abc)", 0))
 }
 
 func printGeometry(g geometry.Geometry) {
