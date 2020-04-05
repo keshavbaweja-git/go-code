@@ -3,14 +3,12 @@ package main
 import (
 	"fmt"
 
+	"github.com/keshavbaweja-git/hello/carpurchase"
 	"github.com/keshavbaweja-git/hello/geometry"
-	"github.com/keshavbaweja-git/hello/morestrings"
 )
 
 func main() {
-	fmt.Println(morestrings.ReverseRunes("Hello, world."))
-	rect1 := geometry.Rect{L: 10, B: 5}
-	printGeometry(rect1)
+	fmt.Println(carpurchase.NbMonths(2000, 8000, 1000, 1.5))
 }
 
 func printGeometry(g geometry.Geometry) {
